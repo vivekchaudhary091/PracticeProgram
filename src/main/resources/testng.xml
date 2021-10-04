@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Fre CRM Application Test Automation Suite">
+
+
+<!-- <listeners>
+<listener class-name="com.qa.extentreports.ExtentReportsListner"/>
+</listeners> -->
+ 
+
+<test name="Run On Firefox">
+<classes>
+<class name="com.test.LoginTest"/>
+</classes>
+</test>
+
+<!-- <test name="Run On chrome" parallel="methods">
+<classes>
+<class name="com.test.LoginTest"/>
+</classes>
+</test> -->
+
+
+
+
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Fre CRM Application Test Automation Suite]">
+  <test name="Run On Firefox(failed)">
+    <classes>
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="verifyLoginWithCustomer"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="verifyLoginWithAdmin"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+    </classes>
+  </test> <!-- Run On Firefox(failed) -->
+</suite> <!-- Failed suite [Fre CRM Application Test Automation Suite] -->
